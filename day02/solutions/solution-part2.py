@@ -1,9 +1,11 @@
 with open("day02/inputs/input-part2.in") as input_file:
     puzzle_input = input_file.read()
 
+
 def format_command(command):
     instruction, value = command.split()
     return instruction, int(value)
+
 
 commands = list(map(format_command, puzzle_input.strip().split("\n")))
 
