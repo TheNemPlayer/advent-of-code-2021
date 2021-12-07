@@ -1,4 +1,4 @@
-with open("day07/inputs/input-part1.in") as input_file:
+with open("day07/inputs/input-part2.in") as input_file:
     puzzle_input = input_file.read()
 
 positions = list(map(int, puzzle_input.strip().split(",")))
